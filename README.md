@@ -4,7 +4,7 @@ Windows Optimizer and disabling unnecessary things and Microsoft (preinstalled) 
 
 <br>Also Everything here is in Batch file and you can change it by yourself!<br>
 <br>Every tweak is explained inside Batch file so you can remove whatever you want!<br>
-
+-------------------------------------------------------------------------------------
 Things that WindowsTweaker.bat does is :
 
 Option 1) 
