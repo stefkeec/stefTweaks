@@ -25,8 +25,7 @@ echo                                                       .:^~~~~~~~~~~^:.
 echo.
 echo.
 echo.     
-for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (set "DEL=%%a" & set "COL=%%b")  
-set /p "input=%DEL%                                                            >: %COL%[92m"
+set /p op=Type option:
 if "%op%"=="1" goto op1
 if "%op%"=="2" goto op2
 
@@ -61,7 +60,7 @@ if '%errorlevel%' NEQ '0' (
 :gotAdmin
     pushd "%CD%"
     CD /D "%~dp0"
-:-------------------------------------
+:--------------------------------------   
 echo
 set backupcmd=xcopy /s /c /d /e /h /i /r /y
 cls
@@ -74,6 +73,7 @@ timeout /t 3
 cls
 goto begin
 cls
+
 :op2
 echo you picked option 2
 echo $ Starting the tweaking..
