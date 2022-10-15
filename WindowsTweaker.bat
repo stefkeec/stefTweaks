@@ -1,17 +1,36 @@
 echo off
 :begin
 color 0e
-echo Select a task:
-echo =============
-echo -
-echo 1) Create Registry Backup!
-echo 2) Run The Tweaks!
-echo -
-set /p op=Type option:
+                                                  
+echo                                             .::^^^~~!!!!~:.                       
+echo                                           .7?77!!!77?JJY555J~                     
+echo  Select a task:                           !J?7!!!!77?JJY5PPG~.7~.              .. 
+echo  =============                           :??77!!!77??JYY5PGJ 7P5Y?!^^:....::^~!J7 
+echo  1) Create Registry Backup!             7?77!!!!7??JJY5PPP.^5P5YYJ??7!!~~~!77JY. 
+echo  2) Run The Tweaks!                    ~??7!!!!77?JJY55PG! JP5YYJ??77!~~~~!7?Y~  
+echo                                       .??77!!!77??JYY5PGY !P5YYJJ?77!!~~~!!7JJ   
+echo                                       !J?77!!!!7?JYY5PPG^:YP5YJJ??7!!~~~!!7?5:   
+echo                                      .7!~^^::::::::~7JP? ?P5YYJ??77!~~~~!77Y7    
+echo                                      ^~!!!~~!77????7~:: ^5P5YJJ?77!!~^~!!7JY.    
+echo                                     ~YJ?7!!!77??JY5PGG~ ^~!?JJ??77!!~!!7??7^     
+echo                                    .JJ?77!!!77?JY55PBP.^JJ!~:^^^^^^^^^^^^^!      
+echo                                    7YJ?7!!!77??JY5PGB~ ?YYJ?7!!~^^^^^^~~~?~      
+echo                                   ^YJ?7!!!!7??JY5PGBJ ~YYJ??77!!~~^^~~~~!7       
+echo                                   ?Y??7!!!77?JJY5PGG.:JYJJ?77!!~~^^~~~~~?:       
+echo                                  ~YJ?7!!!77??JY5PGB! 7YYJ??7!!~~^^^~~~~7!        
+echo                                 :YYJ?7!!~~~!7?YPGB5 ^YYJ??77!!~~^^~~~~!?         
+echo                                :~^:.         .^7Y^.JYJJ?77!!~~^^^~~~~?^         
+echo                                                    .!?JJ?77!!~~^~~~!!7!          
+echo                                                       .:^~~~~~~~~~~^:.    
+echo.
+echo.
+echo.     
+for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (set "DEL=%%a" & set "COL=%%b")  
+set /p "input=%DEL%                                                            >: %COL%[92m"
 if "%op%"=="1" goto op1
 if "%op%"=="2" goto op2
 
-echo Please Pick an option:
+echo                        >:
 goto begin
 
 
