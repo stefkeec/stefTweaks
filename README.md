@@ -1,7 +1,8 @@
 # WindowsTweaker
 Windows Optimizer and disabling unnecessary things and Microsoft (preinstalled) Apps.
 -------------------------------------------------------------------------------------
-![download (1)](https://user-images.githubusercontent.com/109522922/195993644-a7339028-1e9d-4e68-9ac7-c5b39c301f41.png)
+![Screenshot_10](https://user-images.githubusercontent.com/109522922/195993667-73adc04a-b24f-412e-b4c8-d3fd748169e5.png)
+
 
 <br>Also Everything here is in Batch file and you can change it by yourself!<br>
 <br>Every tweak is explained inside Batch file so you can remove whatever you want!<br>
