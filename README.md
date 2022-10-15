@@ -1,5 +1,7 @@
 # WindowsTweaker
 Windows Optimizer and disabling unnecessary things and Microsoft (preinstalled) Apps.
+Also Everything here is in Batch file and you can change it by yourself!
+Every tweak is explained inside Batch file so you can remove whatever you want!
 -------------------------------------------------------------------------------------
 Things that WindowsTweaker.bat does is :
 
