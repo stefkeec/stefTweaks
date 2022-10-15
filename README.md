@@ -10,8 +10,8 @@ Option 2)
 Turns Your PC to maximum performance, increase privacy and lower delay!
 
 Detailed:
--Select High Performance power plan as active
--Disable Telemetry
+<br>-Select High Performance power plan as active <br>
+<br>-Disable Telemetry <br>
 -Disable driver updates From Windows Updates
 -Disable driver searching
 -Disable UAC (User account control)
