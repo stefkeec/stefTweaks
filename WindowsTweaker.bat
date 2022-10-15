@@ -61,7 +61,7 @@ if '%errorlevel%' NEQ '0' (
 :gotAdmin
     pushd "%CD%"
     CD /D "%~dp0"
-:--------------------------------------   
+:-------------------------------------
 echo
 set backupcmd=xcopy /s /c /d /e /h /i /r /y
 cls
